@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    下面这是和日志相关的-->
+<!--    <settings>-->
+<!--        <setting name="logImpl" value="LOG4J"/>-->
+<!--    </settings>-->
+    <mappers>
+        <mapper resource="db/mybatis/MyMapper.xml"/>
+        <mapper class="First.DAO.UserMapper"/>
+    </mappers>
+</configuration>
+
+
